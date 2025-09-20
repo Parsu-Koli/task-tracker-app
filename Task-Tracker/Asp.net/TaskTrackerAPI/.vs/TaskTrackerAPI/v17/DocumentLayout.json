@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\angular\\task-tracker\\asp.net\\tasktrackerapi\\tasktrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|solutionrelative:tasktrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\angular\\task-tracker\\asp.net\\tasktrackerapi\\tasktrackerapi\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|solutionrelative:tasktrackerapi\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\angular\\task-tracker\\asp.net\\tasktrackerapi\\tasktrackerapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|solutionrelative:tasktrackerapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\angular\\task-tracker\\asp.net\\tasktrackerapi\\tasktrackerapi\\data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|solutionrelative:tasktrackerapi\\data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\angular\\task-tracker\\asp.net\\tasktrackerapi\\tasktrackerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|solutionrelative:tasktrackerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|c:\\users\\user\\documents\\progarms\\documents\\jvit\\angular\\task-tracker\\asp.net\\tasktrackerapi\\tasktrackerapi\\migrations\\20250915082501_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E732599-45C7-4B19-B96C-0F7BB7B4E2CE}|TaskTrackerAPI\\TaskTrackerAPI.csproj|solutionrelative:tasktrackerapi\\migrations\\20250915082501_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250915082501_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Migrations\\20250915082501_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TaskTrackerAPI\\Migrations\\20250915082501_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Migrations\\20250915082501_InitialCreate.cs",
+              "RelativeToolTip": "TaskTrackerAPI\\Migrations\\20250915082501_InitialCreate.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T08:25:02.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskTrackerAPI\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskTrackerAPI\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:15:18.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TaskTrackerAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Program.cs",
+              "RelativeToolTip": "TaskTrackerAPI\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowCoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:11:11.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskTrackerAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\appsettings.json",
+              "RelativeToolTip": "TaskTrackerAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-15T07:08:07.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Data\\TaskDbContext.cs",
+              "RelativeDocumentMoniker": "TaskTrackerAPI\\Data\\TaskDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Data\\TaskDbContext.cs",
+              "RelativeToolTip": "TaskTrackerAPI\\Data\\TaskDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:04:51.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoTask.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Models\\TodoTask.cs",
+              "RelativeDocumentMoniker": "TaskTrackerAPI\\Models\\TodoTask.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\progarms\\Documents\\JVIT\\Angular\\Task-Tracker\\Asp.net\\TaskTrackerAPI\\TaskTrackerAPI\\Models\\TodoTask.cs",
+              "RelativeToolTip": "TaskTrackerAPI\\Models\\TodoTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:03:36.74Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

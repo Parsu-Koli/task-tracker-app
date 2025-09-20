@@ -1,0 +1,25 @@
+<p>post data works!</p>
+<table border="1">
+  <thead>
+    <tr>
+        <th>DepartmentId</th>
+        <th>Department Name</th>
+        <th>Department Logo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of departList">
+        <td>{{ item.childDeptId }}</td>
+        <td>{{ item.parentDeptId }}</td>
+        <td>{{ item.departmentName}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<br><br>
+
+<input type="text" placeholder="Enter Employee Name"/>
+
+<input type="tel" placeholder="Enter Employee Contact "/>
+
+<button type="submit">Submit</button>

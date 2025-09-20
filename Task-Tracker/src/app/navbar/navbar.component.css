@@ -1,0 +1,24 @@
+.navbar{
+    background-color: #ff9800;
+    height: 70px;
+    width: 100%;
+    padding-top: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.img{
+    font-size: 35px;
+    margin-left: 15px;
+}
+.nev{
+    padding-left: 45px;
+    margin-top: -30px;
+    
+}

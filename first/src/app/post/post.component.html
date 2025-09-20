@@ -1,0 +1,27 @@
+<p>post works!</p>
+
+<div>
+    Department name:
+    <input type="text" [(ngModel)]="deptobj.departmentName" placeholder="Enter name">
+    Department logo:
+    <input type="text" [(ngModel)]="deptobj.departmentLogo" placeholder="Enter logo">
+</div>
+
+
+<button (click)="onSave()">Save Department</button>
+
+
+<table style="border: 1;">
+    <tr>
+        <th>Sr. No</th>
+        <th>Name</th>
+        <th>Logo</th>
+    </tr>
+    <tr *ngFor="let item of deptList; let i=index">
+        <td>{{i+1}}</td>
+        <td>{{item.departmentName}}</td>
+        <td>{{item.departmentLogo}}</td>
+    </tr>
+</table>
+
+

@@ -1,0 +1,46 @@
+<div class="body">
+    <div class="par">
+        <div class="Main">
+            <form (ngSubmit)="addtask()" #taskForm="ngForm">
+                <div class="top">
+                    <p>{{ isEditMode ? 'Edit Task' : 'Add Task' }}</p>
+                </div>
+
+                <div class="first-input">
+                    <label for="addtitle">Title:</label>
+                    <input type="text" id="addtitle" name="title" required placeholder="Add Title"
+                        [(ngModel)]="array.title" />
+                </div>
+
+                <div class="second-input">
+                    <label for="adddescription">Description:</label>
+                    <input type="text" id="adddescription" name="description" placeholder="Add Description"
+                        [(ngModel)]="array.description" />
+                </div>
+
+                <div class="third-input">
+                    <label>Status:</label><br />
+                    <label class="sta">
+                        <input type="radio" name="status" value="Completed" [(ngModel)]="array.status" required />
+                        Completed
+                    </label>
+
+                    <label class="sta">
+                        <input type="radio" name="status" value="Pending" [(ngModel)]="array.status" />
+                        Pending
+                    </label>
+                </div>
+
+                <div class="btn">
+                    <button type="submit" class="add-btn" [disabled]="!taskForm.form.valid">
+                        {{ isEditMode ? 'Update' : 'Add Task' }}
+                    </button>
+
+                    <button type="button" class="can-btn">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

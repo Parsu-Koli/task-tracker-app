@@ -1,0 +1,34 @@
+.main{
+    margin-top: 5px;
+    height: 450px;
+    width: 250px;
+    background-color:  #232323;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.summary-cards{
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.container{
+    margin-top: -150px;
+}
+
+.container ul li{
+    color: white;
+
+}
+
+p{
+    margin-top: 10px;
+    color: white;
+}
+
+h2{
+    
+    
+    color:#8f94fb;
+}

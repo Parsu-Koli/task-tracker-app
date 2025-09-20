@@ -1,0 +1,245 @@
+<app-getdata></app-getdata>
+ <!-- <app-post></app-post> -->
+
+
+
+<!-- pipe examples
+
+ <h2>*customPipe</h2>
+ <h1>{{a | customPipe}}</h1>
+ <h1>{{a | customPipe:12}}</h1>
+
+ <h2>*String Formation</h2>
+ <h2>{{title | uppercase}}</h2>
+ <h2>{{title | titlecase}}</h2>
+ <h2>{{title | lowercase}}</h2>
+
+ <h2>*Date Pipe</h2>
+ <h2>{{date}}</h2>
+ <h2>{{date|date}}</h2>
+ <h2>{{date | date:'fullDate'}}</h2>
+ <h2>{{date | date:'hh:mm:ss'}}</h2>
+
+ <h2>*Currency Pipe</h2>
+ <h2>{{a | currency}}</h2>
+ <h2>{{a | currency:'EUR'}}</h2>
+ <h2>{{a | currency:'INR'}}</h2>
+
+ <h2>* percents</h2>
+ <h2>{{1 | percent}}</h2>
+ <h2>{{0.30 | percent:'1.2-2'}}</h2>
+ 
+  -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated Login</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Animated background */
+    body {
+      background: linear-gradient(120deg, #1e3c72, #2a5298);
+      position: relative;
+    }
+
+    .bubbles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .bubbles span {
+      position: absolute;
+      display: block;
+      width: 40px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      animation: animate 25s linear infinite;
+      bottom: -150px;
+    }
+
+    .bubbles span:nth-child(1) {
+      left: 10%;
+      width: 80px;
+      height: 80px;
+      animation-delay: 0s;
+    }
+
+    .bubbles span:nth-child(2) {
+      left: 20%;
+      width: 40px;
+      height: 40px;
+      animation-delay: 2s;
+      animation-duration: 20s;
+    }
+
+    .bubbles span:nth-child(3) {
+      left: 25%;
+      animation-delay: 4s;
+    }
+
+    .bubbles span:nth-child(4) {
+      left: 40%;
+      width: 60px;
+      height: 60px;
+      animation-delay: 0s;
+      animation-duration: 18s;
+    }
+
+    .bubbles span:nth-child(5) {
+      left: 70%;
+      animation-delay: 0s;
+    }
+
+    .bubbles span:nth-child(6) {
+      left: 80%;
+      width: 80px;
+      height: 80px;
+      animation-delay: 3s;
+    }
+
+    @keyframes animate {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+      }
+    }
+
+    /* Login Box */
+    .login-box {
+      position: relative;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 30px rgba(0,0,0,0.2);
+      width: 350px;
+      margin: 100px auto;
+      animation: slideIn 1.5s ease forwards;
+      opacity: 0;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .login-box h2 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+    }
+
+    .input-group {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px 10px;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      color: #fff;
+      font-size: 16px;
+        outline: none;
+      transition: 0.3s;
+    }
+
+    .input-group label {
+      position: relative;
+      left: 10px;
+      top: -25px;
+      color: #ccc;
+      transition: 0.3s;
+      pointer-events: none;
+    }
+
+    .input-group input:focus,
+    .input-group input:valid {
+      border-bottom: 2px solid #00ffff;
+    }
+
+    .input-group input:focus ~ label,
+    .input-group input:valid ~ label {
+      top: -50px;
+      font-size: 12px;
+      color: #00ffff;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      background: linear-gradient(135deg, #00c3ff, #ffff1c);
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px #00c3ff88;
+    }
+
+    .login-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #ffff1c;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="bubbles">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="login-box">
+    <h2>Login Portal</h2>
+    <form>
+      <div class="input-group">
+        <input type="text" name="username" required />
+        <label>Username</label>
+      </div>
+      <div class="input-group">
+        <input type="password" name="password" required />
+        <label>Password</label>
+      </div>
+      <button type="submit" class="login-btn">Log In</button>
+    </form>
+  </div>
+</body>
+</html> -->

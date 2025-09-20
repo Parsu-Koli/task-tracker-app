@@ -1,0 +1,23 @@
+<form action="">
+    <div class="Container">
+        <div class="Fullname">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter Full Name" [(ngModel)]="fullname">
+        </div>
+        <div class="Email">
+            <label>Email</label>
+            <input type="email" placeholder="Enter Email" [(ngModel)]="email">
+        </div>
+        <div class="Phno">
+            <label for="">Phone No</label>
+            <input type="number" placeholder="Enter Phone No" [(ngModel)]="phno">
+        </div>
+        <div class="Password">
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" [(ngModel)]="password">
+        </div>
+        <div class="Button">
+            <button (click)="Onsave()">Register</button>
+        </div>
+    </div>
+</form>

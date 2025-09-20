@@ -1,0 +1,107 @@
+
+
+.par{
+    
+    background-color:#2196f3;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 957px;
+    display: flex;
+    margin-top: -453px;
+    margin-left: 260px;
+
+
+}
+
+.Main{
+    height:350px;
+    width:350px;
+    margin-left: 35%;
+    border: 2px solid black;
+    border-radius: 15px 0px 15px 0px;
+    margin-top: 50px;
+    background-color: white;
+    
+    
+}
+
+.top{
+    height: 40px;
+    width: 96%;
+    background-color:#2196f3;
+    margin: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.first-input{
+    margin-top:10%;
+    margin-left: 10px;
+}
+
+.first-input input{
+    margin-left:45px;
+}
+
+.second-input{
+    margin-top:5%;
+    margin-left: 10px;
+}
+
+.second-input label{
+    display:flex;
+}
+
+.second-input input{
+    height: 50px;
+    margin-left: 80px;
+    margin-top: -16px;
+    overflow-x:visible;
+}
+
+.third-input{
+    margin-top:5%;
+    margin-left: 10px;
+    display: flex;
+    
+}
+
+.third-input .sta{
+    margin-left: 35px;
+    
+    
+}
+
+.btn{
+    margin-top: 40px;
+    height: 30px;
+    width: 100%;
+    
+}
+
+.add-btn{
+    margin-left: 18%;
+    background-color: rgb(32, 32, 253);
+    color: white;
+    height: 25px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.can-btn{
+    margin-left: 50px;
+    background-color: red;
+    color: white;
+    height: 25px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

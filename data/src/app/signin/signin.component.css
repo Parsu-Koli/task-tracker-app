@@ -1,0 +1,39 @@
+form{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13%;
+}
+
+.Container{
+    height: 350px;
+    background-color: rgb(166, 210, 248);
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 0 20px 0 20px;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.Fullname{
+    display: flex;
+    flex-direction: column;
+}
+
+.Fullname label
+{
+    margin-left: 15px;
+    
+    
+}
+.Fullname input{
+    width: 175px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    outline: none;
+    margin-left: 35px;
+    margin-bottom: 6px;
+}
